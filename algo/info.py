@@ -1,0 +1,19 @@
+V=input('V ni kiriting')
+V=float(V)
+Z=input('Z ni kiriting')
+Z=float(Z)
+Us=V/Z
+print('Us=',Us)
+z=input('z ni kiriting')
+z=float(z)
+h=input('h ni kiriting')
+h=float(h)
+b=0.14
+Uz=Us*((z/h)**b)
+print('Uz=', Uz)
+q=float(input('q='))
+U0=float(input('U0'))
+p=float(input('p'))
+cp=0.59
+A=p/0.5*q*cp*U0**3
+print('A=',A)

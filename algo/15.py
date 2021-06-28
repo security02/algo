@@ -1,0 +1,6 @@
+r1,r2,r3=input().split()
+r1=int(r1)
+r2=int(r2)
+r3=int(r3)
+r=1/(1/r1+1/r2+1/r3)
+print('%.2f' % r)
